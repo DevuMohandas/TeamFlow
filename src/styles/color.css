@@ -21,6 +21,7 @@
   --color-primary: var(--blue);
   --color-secondary: var(--soft-blue);
   --color-accent: var(--deep-blue);
+  --color-subtle: var(--gray);
 
   /* Base Colors */
   --color-base-white: var(--white);
@@ -59,6 +60,10 @@
   --color-theme-subtle: var(--color-theme-subtle);
   --color-theme-background-dark: var(--color-theme-background-dark);
 
+  /* button colors */
+  --color-primary-button: var(--color-primary);
+  --color-secondary-button: var(--color-secondary);
+  --color-subtle-button: var(--color-subtle);
 
   /* Text */
   --color-theme-text: var(--color-theme-text);
