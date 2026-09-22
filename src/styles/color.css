@@ -1,0 +1,73 @@
+:root {
+  /* Base Colors */
+  --white: #ffffff;
+  --black: #000000;
+
+  --blue: #2563eb;
+  --deep-blue: #1e3a8a;
+  --soft-blue: #dbeafe;
+
+  --cream: #f8fafc;
+  --warm-cream: #f1f5f9;
+
+  --gray: #64748b;
+  --light-gray: #e2e8f0;
+}
+
+
+/* Semantic Tokens */
+:root {
+  /* Brand */
+  --color-primary: var(--blue);
+  --color-secondary: var(--soft-blue);
+  --color-accent: var(--deep-blue);
+
+  /* Base Colors */
+  --color-base-white: var(--white);
+  --color-base-black: var(--black);
+
+  /* Backgrounds */
+  --color-default-background: var(--cream);
+  --color-theme-background: var(--blue);
+  --color-theme-subtle: var(--soft-blue);
+  --color-theme-background-dark: var(--deep-blue);
+
+  /* Text */
+  --color-theme-text: var(--blue);
+  --color-theme-text-dark: var(--deep-blue);
+  --color-text-black: var(--black);
+  --color-text-white: var(--white);
+  --color-text-muted: var(--gray);
+  --color-text-light: var(--cream);
+
+  /* Borders */
+  --color-border-light: var(--light-gray);
+  --color-border-dark: var(--deep-blue);
+}
+
+
+/* Tailwind Theme */
+@theme {
+  /* Brand */
+  --color-teamflow-primary: var(--color-primary);
+  --color-teamflow-secondary: var(--color-secondary);
+  --color-teamflow-accent: var(--color-accent);
+
+  /* Backgrounds */
+  --color-primary-background: var(--color-default-background);
+  --color-theme-background: var(--color-theme-background);
+  --color-theme-subtle: var(--color-theme-subtle);
+  --color-theme-background-dark: var(--color-theme-background-dark);
+
+
+  /* Text */
+  --color-theme-text: var(--color-theme-text);
+  --color-theme-text-dark: var(--color-theme-text-dark);
+  --color-default-text: var(--color-text-black);
+  --color-default-text-light: var(--color-text-light);
+  --color-muted-text: var(--color-text-muted);
+
+  /* Borders */
+  --color-border-light: var(--color-border-light);
+  --color-border-dark: var(--color-border-dark);
+}
