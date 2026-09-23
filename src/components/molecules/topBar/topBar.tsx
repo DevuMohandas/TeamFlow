@@ -1,11 +1,11 @@
 export function TopBar() {
   return (
-    <header className="flex items-center justify-between border-b border-border-light bg-surface px-6 py-3">
-      <div className="relative">
+    <header className="flex items-center justify-between border-b border-border-light bg-primary-background px-6 py-3">
+      <div className="relative w-full">
         <input
           type="search"
           placeholder="Search..."
-          className="w-80 rounded-lg border border-border-light bg-cream py-2 pl-9 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-teamflow-primary"
+          className="w-80 bg-cream py-2 pl-9 pr-3 text-sm focus:outline-none"
         />
         <svg
           className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted"
